@@ -19,3 +19,5 @@ spec:
   volume:
   - name: llm-workspace
     source: "@llm_workspace"
+    uid: 0
+    gid: 0
