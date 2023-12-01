@@ -4,8 +4,8 @@
   "password"  : "",
   "role"      : "ROLE_USER####",
   "warehouse" : "WH_XS_USER####",
-  "database"  : "DB_USER####",
-  "schema"    : "SCHEMA_LLM",
+  "database"  : "db_user####",
+  "schema"    : "schema_llm",
   "compute_pool" : "COMPUTE_POOL_USER####",
   "huggingface_token": ""
 }
