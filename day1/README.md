@@ -85,15 +85,15 @@ Once you have completed the Day 1 hands-on lab as outlined above, follow the ins
 
 4) Once that image is built locally, run the following commands to push the image to Snowflake Registry
 
-    1) Replace ***<your-account-name>*** with your account name and ***<your-db-name>*** with the name of your DB ***in lowercase*** and then run the following command
+    1) Replace ***your-account-name*** with your account name and ***your-db-name*** with the name of your database ***in lowercase*** and then run the following command
 
-        `docker tag llm-bootcamp:latest sfsenorthamerica-<your-account-name>.registry.snowflakecomputing.com/<your-db-name>/schema_llm/image_repo/llm-bootcamp:latest`
+        `docker tag llm-bootcamp:latest sfsenorthamerica-your-account-name.registry.snowflakecomputing.com/your-db-name/schema_llm/image_repo/llm-bootcamp:latest`
 
-    2) Run the following command and login using your BUILD LLM Bootcamp account username and password
+    2) Replace ***your-account-name*** with your account name and run the following command to login using your LLM Bootcamp Snowflake account username and password
 
-        `docker login sfsenorthamerica-<your-account-name>.registry.snowflakecomputing.com`
+        `docker login sfsenorthamerica-your-account-name.registry.snowflakecomputing.com`
         
-    3) Replace ***<your-account-name>*** with your account name and ***<your-db-name>*** with the name of your DB ***in lowercase*** and then run 
+    3) Replace ***your-account-name*** with your account name and ***your-db-name*** with the name of your database ***in lowercase*** and then run the following command
     
-        `docker push sfsenorthamerica-<your-account-name>.registry.snowflakecomputing.com/<your-db-name>/schema_llm/image_repo/llm-bootcamp:latest`
+        `docker push sfsenorthamerica-your-account-name.registry.snowflakecomputing.com/your-db-name/schema_llm/image_repo/llm-bootcamp:latest`
 
