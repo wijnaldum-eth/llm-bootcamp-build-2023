@@ -65,7 +65,7 @@ Run the following command to create the service that will host the Jupyter Noteb
 create service FINETUNE_LLM_SERVICE
   MIN_INSTANCES = 1
   MAX_INSTANCES = 1
-  COMPUTE_POOL = COMPUTE_POOL_USER####"
+  COMPUTE_POOL = COMPUTE_POOL_USER####
   SPEC = '@yaml_stage/llm-bootcamp.yaml';
 ```
 
