@@ -49,7 +49,7 @@ Update [connection.json](connection.json) with your Hugging Face token and Snowf
 
 ```json
 {
-  "account"   : "RTB37168",
+  "account"   : "",
   "user"      : "USER####",
   "password"  : "",
   "role"      : "ROLE_USER####",
